@@ -13,7 +13,7 @@ fn main() {
 
     let f_temp: f32 = trimmed.parse().unwrap();
 
-    let c_temp: f32 = (f_temp - 32.0) * (0.555);
+    let c_temp: f32 = (f_temp - 32.00) * 0.555;
 
     println!("Here's your number {}", c_temp);
 }
